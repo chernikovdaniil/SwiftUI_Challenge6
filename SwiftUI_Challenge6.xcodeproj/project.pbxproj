@@ -11,6 +11,7 @@
 		39D623B52B2E01E900DE5E85 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D623B42B2E01E900DE5E85 /* ContentView.swift */; };
 		39D623B72B2E01EA00DE5E85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39D623B62B2E01EA00DE5E85 /* Assets.xcassets */; };
 		39D623BA2B2E01EA00DE5E85 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39D623B92B2E01EA00DE5E85 /* Preview Assets.xcassets */; };
+		39D623C12B2E022B00DE5E85 /* GeneralLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D623C02B2E022B00DE5E85 /* GeneralLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		39D623B42B2E01E900DE5E85 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		39D623B62B2E01EA00DE5E85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39D623B92B2E01EA00DE5E85 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		39D623C02B2E022B00DE5E85 /* GeneralLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				39D623B22B2E01E900DE5E85 /* SwiftUI_Challenge6App.swift */,
 				39D623B42B2E01E900DE5E85 /* ContentView.swift */,
+				39D623C02B2E022B00DE5E85 /* GeneralLayout.swift */,
 				39D623B62B2E01EA00DE5E85 /* Assets.xcassets */,
 				39D623B82B2E01EA00DE5E85 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39D623C12B2E022B00DE5E85 /* GeneralLayout.swift in Sources */,
 				39D623B52B2E01E900DE5E85 /* ContentView.swift in Sources */,
 				39D623B32B2E01E900DE5E85 /* SwiftUI_Challenge6App.swift in Sources */,
 			);

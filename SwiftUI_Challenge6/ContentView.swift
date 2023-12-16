@@ -7,18 +7,26 @@
 
 import SwiftUI
 
-struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
-    }
-}
-
 #Preview {
     ContentView()
+}
+
+struct ContentView: View {
+    @State private var applyDiagonalLayout = false
+    private let squareCount = 7
+    
+    var body: some View {
+        AnyLayout(GeneralLayout(applyDiagonalLayout: $applyDiagonalLayout)) {
+            ForEach(0..<squareCount, id: \.self) { _ in
+                Button {
+                    withAnimation {
+                        applyDiagonalLayout.toggle()
+                    }
+                } label: {
+                    RoundedRectangle(cornerRadius: 6)
+                        .foregroundStyle(.blue)
+                }
+            }
+        }
+    }
 }
